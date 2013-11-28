@@ -3,6 +3,18 @@
  */
 .footer {
   padding-top: 10px;
-  background-color: #efefef;
+  background-color: #F1F2C7;
   width: 100%;
+}
+
+.navbar-default .navbar-brand {
+  color: #111100;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #333322;
+}
+
+.navbar-default {
+  background-color: #C9C96F;
 }
