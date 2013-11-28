@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: olivier.amblet.net
 markdown: redcarpet
 pygments: true
 exclude: ['Gemfile', 'Gemfile.lock']
