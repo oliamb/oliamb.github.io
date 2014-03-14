@@ -1,20 +1,41 @@
-/**
- * Sticky footer Styles
- */
-.footer {
-  padding-top: 10px;
-  background-color: #F1F2C7;
-  width: 100%;
+html, body {
+  height: 100%;
 }
 
-.navbar-default .navbar-brand {
-  color: #111100;
+.dark {
+  color: #d4d4d4;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #333322;
+.background-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.navbar-default {
-  background-color: #C9C96F;
+.condensed {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.site {
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:         flex;
+
+  -webkit-flex-direction: column;
+     -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.site-content {
+  -webkit-flex: 1;
+     -moz-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+
+.dark .navbar-brand {
+  color: #d4d4d4;
 }
